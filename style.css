@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+* {
+    background-color: bisque;
+    font-family: 'Gowun Dodum', sans-serif;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: xxx-large;
+}
+h2 {
+    font-size: xx-large;
+}
+h3{
+    font-size: x-large;
+}
+p {
+    font-size: large;
+}
+li {
+    font-size: large;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 15px;
+    height: auto;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+  }
+
+  /* .center {
+    text-align: center;
+  } */
+
+#ronImage{
+    /* makes the image rounded */
+    border-radius: 50%;
+    /* makes the images central regardless of the width fo the window */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    /* adds a border to the image */
+    border: 8px solid peru  ;
+    padding: px;
+}
+/* unvisited link */
+a:link {
+    color: black;
+    font-size: large;
+    font-style: italic;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: red;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:royalblue;
+    font-style: italic;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+
+
+a:hover {
+    color:royalblue;
+    font-style: italic;
+}
+footer {
+    text-align: center;
+}
+.grid-container{
+    margin-left: 25px;
+    margin-right: 25px;
+    display: grid;
+    column-gap: 25px;
+    row-gap: 25px;
+    grid-template-columns: auto auto auto ;
+    background-color: bisque;
+}
+
+.grid-item {
+    background-color: whitesmoke;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 600px){
+    body{
+        .grid-container{
+            grid-template-columns: auto;
+        }
+    }
+
+  }
